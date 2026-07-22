@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<head>
+    <style>
+        body {
+            background-color: black;
+            background-image: url('R.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 100px 30px 100px 30px;
+            padding: 20px;
+        }
+
+        form {
+            font-size: x-large;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <fieldset style="border: thick double rgb(205, 192, 0);">
+            <legend style="color: rgb(150, 199, 255) ; font-family: Ink Free;">Univercity Entry Admisstion Form</legend>
+            Name: <input type="text" name="NAME" placeholder="Please enter your name " autofocus><br>
+
+            Father Name: <input type="text" name="F.NAME" placeholder="Please neter your F.name"><br>
+
+            Date of birth:<input type="date" name="DOF"><br>
+
+            Study Field: <select name="Study Field" required>
+                <option>Computer Science</option>
+                <option>Medicene</option>
+                <option>Engenieering</option>
+                <option>LAW</option>
+                <option>Biology</option>
+                <option>Physics</option>
+                <option>Chemestry</option>
+            </select><br>
+
+            Study Program: <select required>
+                <option>Bachelor's</option>
+                <option>Masters</option>
+                <option>PHD</option>
+            </select><BR>
+
+
+
+            <input type="submit" name="submit" value="Sign in" >
+            <input type="reset">
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>
